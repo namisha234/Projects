@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Rooster';
-    src: url('./font/ROOSTER PERSONAL USE.ttf') format('truetype');
+    src: url('/clock/font/ROOSTER PERSONAL USE.ttf') format('truetype');
 }
 
 body{
