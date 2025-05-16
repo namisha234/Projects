@@ -8,10 +8,10 @@ let clockRunning= true;
 button.innerText= "Stop Clock";
 
 image.addEventListener('mouseover',()=>{
-    image.src= "/clock/images/clock.png";
+    image.src= "./images/clock.png";
 });
 image.addEventListener('mouseout',()=>{
-    image.src= "/clock/images/3-pose.png";
+    image.src= "./images/3-pose.png";
 });
 
 button.addEventListener('click', ()=>{
