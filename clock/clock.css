@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Rooster';
+    src: url('./font/ROOSTER PERSONAL USE.ttf') format('truetype');
+}
+
+body{
+    background-color: #f4e1c1;
+    font-family: 'Rooster', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#clock-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: rgba(68, 45, 45, 0.7);
+    font-size: 2rem;
+    
+}
+
+.timer{
+    display: inherit;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(216, 184, 151, 0.8);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: top;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Rooster', sans-serif;
+    position: absolute;
+    top: 49px;
+    border: 2px solid green;
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.timer span:first-child {
+    font-size: 1.5rem;
+    font-family: 'Rooster', sans-serif;
+    font-weight: bold;
+    color: rgba(68, 45, 45, 0.9);
+}
+
+.timer span:last-child {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+#hour-container{
+    left: 37%;
+}
+#min-container{
+    left: 46%;
+
+}
+#sec-container{
+    left: 55%;
+ 
+
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin-top: 13%;
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+button{
+    font-family: 'Rooster', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(121, 62, 62);
+    background-color: #dca578;
+    margin: 2vh;
+    padding: 1vw 2vw;
+    height: auto ;
+    width: 10vw;
+    border:#f4e1c1 none;
+    border-radius: 12px;
+}
+

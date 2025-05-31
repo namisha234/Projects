@@ -1,0 +1,23 @@
+.backscreen{
+    background-color: black;
+}
+.div{
+    background-color: rgb(115, 177, 188);
+     height: 100vh;
+    width: 100vw;
+   
+    border: 2px solid rgba(255, 255, 255, 0.566);
+    border-bottom: 0px;
+    border-top: 0px;
+    position:relative;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
